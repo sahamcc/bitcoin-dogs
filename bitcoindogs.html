@@ -353,9 +353,9 @@ function containsFourDigitSquare(number) {
 
 // Determine the range for laser eyes based on the last four digits
 function getLaserEyeRange(lastFourDigits) {
-    if (lastFourDigits < 4800) {
+    if (lastFourDigits < 1000) {
         return "laser_right"
-    } else if (lastFourDigits >= 4800 && lastFourDigits <= 5200) {
+    } else if (lastFourDigits >= 1000 && lastFourDigits <= 1200) {
         return "laser_crossed"
     } else {
         return "laser_left"
